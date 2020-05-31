@@ -2,7 +2,6 @@ import React from "react";
 import Cell from "./Cell";
 
 export default function Board({ list }) {
-  console.log(list);
   const row1 = (
     <tr>
       {list.map((x, i) => (x.id <= 5 ? <Cell data={x} key={x.id} /> : null))}

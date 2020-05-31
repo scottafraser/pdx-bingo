@@ -1,34 +1,27 @@
 .App {
   text-align: center;
-  background-image: url(https://i.pinimg.com/236x/20/c8/fa/20c8faa6197fe4ddcb94b34bda65c1cf--etsy-business-business-ideas.jpg);
+  background-image: url();
   background-repeat: repeat;
+  min-height: 100vh;
 }
 
 #bingo-table th {
-  padding: 0.5em;
-  font-weight: 700;
-  font-size: 2em;
+  padding: 0.1em;
 }
 
-/* #bingo-table td {
-  padding: 2em;
-  border: 1px black solid;
-} */
-
 .container {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  padding-bottom: 2em;
 }
 
 .cell {
   cursor: pointer;
   height: 100%;
-  width: 20%;
-  padding: 2em;
-  /* border: 1px black solid; */
+  width: 100px;
   background-color: white;
   border-radius: 5px;
 }
@@ -54,19 +47,19 @@
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.2em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 0px;
 }
 
-p {
-  font-weight: bold;
+h3 {
+  margin-bottom: 0px;
 }
 
 button {
   cursor: pointer;
-  font-size: 1em;
+  font-size: 0.7em;
   font-weight: bold;
   background-color: lightcoral;
   padding: 0.5em 1em;

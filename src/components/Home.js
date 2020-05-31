@@ -24,6 +24,7 @@ export default class Home extends Component {
         <div id="title">
           <h1>Portland Bingo</h1>
           <h3>Too Cool For School</h3>
+          <p>double click on a cell if you see 'em</p>
           <div>
             <button
               onClick={() =>
