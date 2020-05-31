@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url();
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9cokvFqkspHEfBikXZurlWcGBWFX9I3C4JmtR-IdGYCRIg_FP&usqp=CAU");
   background-repeat: repeat;
   min-height: 100vh;
 }
@@ -24,6 +24,7 @@
   width: 100px;
   background-color: white;
   border-radius: 5px;
+  font-size: 0.7em;
 }
 
 .active {
